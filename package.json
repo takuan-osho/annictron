@@ -1,0 +1,25 @@
+{
+  "name": "annictron",
+  "version": "1.0.0",
+  "description": "Desktop Webview App for Annict",
+  "main": "main.js",
+  "scripts": {
+    "tsc": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron",
+    "Annict"
+  ],
+  "author": "SHIMIZU Taku <shimizu.taku@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.1",
+    "tslint": "^3.0.0",
+    "typescript": "^1.6.2"
+  },
+  "dependencies": {
+    "electron": "^0.4.1"
+  }
+}

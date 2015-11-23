@@ -1,0 +1,26 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "ref": "master"
+    }
+  ],
+  "path": "typings",
+  "bundle": "typings/bundle.d.ts",
+  "link": {
+    "npm": {
+      "include": true
+    }
+  },
+  "dependencies": {
+    "github-electron/electron-prebuilt.d.ts": {
+      "ref": "81a7f48ea554e1baf810af905d8bd9e4eb3b4e69"
+    },
+    "github-electron/github-electron-main.d.ts": {
+      "ref": "81a7f48ea554e1baf810af905d8bd9e4eb3b4e69"
+    },
+    "electron-packager/electron-packager.d.ts": {
+      "ref": "81a7f48ea554e1baf810af905d8bd9e4eb3b4e69"
+    }
+  }
+}

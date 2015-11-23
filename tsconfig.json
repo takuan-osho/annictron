@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"inlineSourceMap": true,
+		"inlineSources": true
+	},
+	"files": [
+		"main.ts",
+		"typings/github-electron/github-electron.d.ts",
+        "typings/github-electron/github-electron-main.d.ts",
+		"typings/github-electron/electron-prebuilt.d.ts",
+		"typings/electron-packager/electron-packager.d.ts",
+		"typings/node/node.d.ts",
+		"typings/bundle.d.ts"
+	]
+}
