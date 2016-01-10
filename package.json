@@ -6,6 +6,10 @@
   "scripts": {
     "tsc": "tsc -w",
     "start": "electron ./main.js",
+    "release:osx": "electron-packager ./ Annictron --out ./release --platform=darwin --arch=x64 --version=0.35.1 --overwrite --asar --ignore=release",
+    "release:win": "electron-packager ./ Annictron --out ./release --platform=win32 --arch=x64 --version=0.35.1 --overwrite --asar --ignore=release",
+    "release:win32bit": "electron-packager ./ Annictron --out ./release --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --asar --ignore=release",
+    "release:linux": "electron-packager ./ Annictron --out ./release --platform=linux --arch=x64 --version=0.35.1 --overwrite --asar --ignore=release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
