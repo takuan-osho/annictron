@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "tsc": "tsc -w",
+    "start": "electron ./main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,8 +19,5 @@
     "electron-prebuilt": "^0.35.1",
     "tslint": "^3.0.0",
     "typescript": "^1.6.2"
-  },
-  "dependencies": {
-    "electron": "^0.4.1"
   }
 }

@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>Annict</title>
+  <style>
+    html, body { height: 100%; }
+    body { margin: 0px; }
+    webview {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
-  <webview id="mainWebview" src="https://annict.com/" autosize="on"></webview>
-  <style>
-  webview {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  </style>
+  <webview id="annict" src="https://annict.com/" autosize="on"></webview>
+  <script>
+    var webview = document.getElementById('annict');
+    var shell = require('electron').shell;
+    
+    webview.addEventListener('new-window', function(e) {
+      shell.openExternal(e.url);
+    });
+  </script>
 </body>
 </html>
