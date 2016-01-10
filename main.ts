@@ -18,7 +18,7 @@ app.on("ready", () => {
 		width: 800,
 		height: 600
 	});
-	mainWindow.loadUrl("file://" + __dirname + "/src/index.html");
+	mainWindow.loadURL("file://" + __dirname + "/src/index.html");
 
 	mainWindow.on("closed", () => {
 		mainWindow = null;

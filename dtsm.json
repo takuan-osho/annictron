@@ -13,14 +13,8 @@
     }
   },
   "dependencies": {
-    "github-electron/electron-prebuilt.d.ts": {
-      "ref": "81a7f48ea554e1baf810af905d8bd9e4eb3b4e69"
-    },
-    "github-electron/github-electron-main.d.ts": {
-      "ref": "81a7f48ea554e1baf810af905d8bd9e4eb3b4e69"
-    },
-    "electron-packager/electron-packager.d.ts": {
-      "ref": "81a7f48ea554e1baf810af905d8bd9e4eb3b4e69"
+    "github-electron/github-electron.d.ts": {
+      "ref": "6eebd5e90a1cbd6b47b0705ba72dbcd5baf846f3"
     }
   }
 }
